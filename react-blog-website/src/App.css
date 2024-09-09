@@ -1,0 +1,39 @@
+.active{
+    @apply text-orange-400 
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.pagination li{
+    margin: 0 5px;
+}
+
+.pagination a{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+}
+
+.pagination a:hover{
+    background:  #eee;
+}
+
+.pagination li.activerPagination{
+    background: rgb(255, 106, 0);
+    border-radius: 4px;
+    color: #fff;
+}
+
+.active-button{
+    color: #fc3c1a;
+    
+}
